@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.99.6671.38791"?>
+<regions xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings dpi="96">
+    <identity>
+      <id>2619ed4f-cd5d-4dc3-8b91-fec8864097ab</id>
+      <revision>2</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="1" printGrid="False" printAreas="True" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="9" orientation="Portrait" width="827" height="1169" />
+      <margins left="39" right="39" top="39" bottom="39" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.99.6671.38791" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.99.6671.38791" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="Special Functions" version="1.11.6671.38793" guid="2814e667-4e12-48b1-8d51-194e480eabc5" />
+    </dependencies>
+  </settings>
+  <region id="0" left="18" top="54" width="136" height="81" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">XORdata</e>
+        <e type="operand">0</e>
+        <e type="operand">0</e>
+        <e type="operand">0</e>
+        <e type="operand">0</e>
+        <e type="operand">1</e>
+        <e type="operand">1</e>
+        <e type="operand">1</e>
+        <e type="operand">0</e>
+        <e type="operand">1</e>
+        <e type="operand">1</e>
+        <e type="operand">1</e>
+        <e type="operand">0</e>
+        <e type="operand">4</e>
+        <e type="operand">3</e>
+        <e type="function" args="14">mat</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="1" left="18" top="153" width="259" height="81" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">X</e>
+        <e type="operand">XORdata</e>
+        <e type="operand">1</e>
+        <e type="operand">4</e>
+        <e type="function" args="2">range</e>
+        <e type="operand">1</e>
+        <e type="operand">2</e>
+        <e type="function" args="2">range</e>
+        <e type="function" args="3">el</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0</e>
+        <e type="operand">0</e>
+        <e type="operand">0</e>
+        <e type="operand">1</e>
+        <e type="operand">1</e>
+        <e type="operand">0</e>
+        <e type="operand">1</e>
+        <e type="operand">1</e>
+        <e type="operand">4</e>
+        <e type="operand">2</e>
+        <e type="function" args="10">mat</e>
+      </result>
+    </math>
+  </region>
+  <region id="2" left="18" top="252" width="203" height="81" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">Y</e>
+        <e type="operand">XORdata</e>
+        <e type="operand">3</e>
+        <e type="function" args="2">col</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0</e>
+        <e type="operand">1</e>
+        <e type="operand">1</e>
+        <e type="operand">0</e>
+        <e type="operand">4</e>
+        <e type="operand">1</e>
+        <e type="function" args="6">mat</e>
+      </result>
+    </math>
+  </region>
+  <region id="3" left="18" top="387" width="742" height="331" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math>
+      <input>
+        <e type="operand">n_hidden_layers</e>
+        <e type="function" args="1">initialize_network</e>
+        <e type="operand">input_neurons</e>
+        <e type="operand">X</e>
+        <e type="operand">1</e>
+        <e type="operand">1</e>
+        <e type="operand">2</e>
+        <e type="function" args="2">range</e>
+        <e type="function" args="3">el</e>
+        <e type="function" args="1">length</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">hidden_neurons</e>
+        <e type="operand">input_neurons</e>
+        <e type="operand">1</e>
+        <e type="operator" args="2">+</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">output_neurons</e>
+        <e type="operand">2</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand" style="string" />
+        <e type="operand">hidden_layer</e>
+        <e type="operand">hidden_neurons</e>
+        <e type="function" args="1">Zeros</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">i</e>
+        <e type="operand">1</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">h</e>
+        <e type="operand">1</e>
+        <e type="operand">n_hidden_layers</e>
+        <e type="function" args="2">range</e>
+        <e type="operand">hidden_layer</e>
+        <e type="operand">hidden_neurons</e>
+        <e type="operand">input_neurons</e>
+        <e type="function" args="2">Random</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">net</e>
+        <e type="operand">1</e>
+        <e type="operand">i</e>
+        <e type="function" args="3">el</e>
+        <e type="operand">hidden_layer</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">n_hidden_layers</e>
+        <e type="operand">1</e>
+        <e type="operator" args="2">&gt;</e>
+        <e type="operand">input_neurons</e>
+        <e type="operand">hidden_neurons</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand" style="string" />
+        <e type="function" args="3">if</e>
+        <e type="operand">i</e>
+        <e type="operand">i</e>
+        <e type="operand">1</e>
+        <e type="operator" args="2">+</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">4</e>
+        <e type="operand">1</e>
+        <e type="function" args="6">line</e>
+        <e type="function" args="3">for</e>
+        <e type="operand">output_layer</e>
+        <e type="operand">output_neurons</e>
+        <e type="operand">hidden_neurons</e>
+        <e type="function" args="2">Random</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">net</e>
+        <e type="operand">1</e>
+        <e type="operand">i</e>
+        <e type="function" args="3">el</e>
+        <e type="operand">output_layer</e>
+        <e type="operator" args="2">:</e>
+        <e type="operand">9</e>
+        <e type="operand">1</e>
+        <e type="function" args="11">line</e>
+        <e type="operator" args="2">:</e>
+      </input>
+    </math>
+  </region>
+  <region id="4" left="36" top="792" width="555" height="66" color="#000000" bgColor="#ffffff" fontSize="10">
+    <math matrixOptions="0,0,4,1">
+      <input>
+        <e type="operand">net</e>
+        <e type="operand">1</e>
+        <e type="function" args="1">initialize_network</e>
+        <e type="operator" args="2">:</e>
+      </input>
+      <result action="numeric">
+        <e type="operand">0.3964</e>
+        <e type="operand">0.1907</e>
+        <e type="operand">0.7113</e>
+        <e type="operand">0.5577</e>
+        <e type="operand">0.9609</e>
+        <e type="operand">0.0091</e>
+        <e type="operand">3</e>
+        <e type="operand">2</e>
+        <e type="function" args="8">mat</e>
+        <e type="operand">0.7111</e>
+        <e type="operand">0.4584</e>
+        <e type="operand">0.3488</e>
+        <e type="operand">0.4848</e>
+        <e type="operand">0.4894</e>
+        <e type="operand">0.8021</e>
+        <e type="operand">2</e>
+        <e type="operand">3</e>
+        <e type="function" args="8">mat</e>
+        <e type="operand">1</e>
+        <e type="operand">2</e>
+        <e type="function" args="4">mat</e>
+      </result>
+    </math>
+  </region>
+</regions>
